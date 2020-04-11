@@ -32,11 +32,13 @@ SET(SIP_TAGS "WS_X11")
 SET(HEADER_FILES
 
   yourclass.h
+  yourstruct.h
 )
 
 SET(SOURCE_FILES
 
   yourclass.cpp
+  yourstruct.cpp
 )
 
 add_compile_definitions(HOST)
